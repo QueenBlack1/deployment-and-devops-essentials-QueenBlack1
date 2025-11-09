@@ -1,0 +1,13 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "npm start"
+
+[env]
+NODE_ENV = "production"
+PORT = "5000"
+
+[[services]]
+name = "web"
+type = "web"
